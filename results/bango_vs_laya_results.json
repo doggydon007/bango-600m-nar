@@ -1,0 +1,358 @@
+{
+ "n": 1340,
+ "majority_baseline": 0.3642,
+ "models": {
+  "laya_base_zeroshot": {
+   "accuracy": 0.4724,
+   "macro_f1": 0.472,
+   "per_source_acc": {
+    "WANLI": {
+     "acc": 0.6957,
+     "n": 69
+    },
+    "FOL-nli": {
+     "acc": 0.3387,
+     "n": 62
+    },
+    "knowref60k": {
+     "acc": 0.5893,
+     "n": 56
+    },
+    "social_i_qa": {
+     "acc": 0.4902,
+     "n": 51
+    },
+    "procedural-typed-decisions/policy_applicability": {
+     "acc": 0.2973,
+     "n": 37
+    },
+    "corr2cause": {
+     "acc": 0.4571,
+     "n": 35
+    },
+    "spartqa-yn": {
+     "acc": 0.5429,
+     "n": 35
+    },
+    "procedural-typed-decisions/record_eligibility": {
+     "acc": 0.5333,
+     "n": 30
+    },
+    "procedural-typed-decisions/multi_view_adjudication": {
+     "acc": 0.3448,
+     "n": 29
+    },
+    "procedural-typed-decisions/event_state_reconstruction": {
+     "acc": 0.4483,
+     "n": 29
+    },
+    "procedural-typed-decisions/policy_under_uncertainty": {
+     "acc": 0.25,
+     "n": 28
+    },
+    "procedural-typed-decisions/state_perturbation": {
+     "acc": 0.3571,
+     "n": 28
+    },
+    "SpaceNLI": {
+     "acc": 0.5,
+     "n": 24
+    },
+    "wands": {
+     "acc": 0.2083,
+     "n": 24
+    },
+    "CONDAQA": {
+     "acc": 0.4583,
+     "n": 24
+    },
+    "multilingual/multilingual-sentiments/all": {
+     "acc": 0.375,
+     "n": 24
+    },
+    "breaking_nli": {
+     "acc": 1.0,
+     "n": 24
+    },
+    "newsmtsc": {
+     "acc": 0.6667,
+     "n": 24
+    },
+    "twitter-financial-news-sentiment": {
+     "acc": 0.7917,
+     "n": 24
+    },
+    "headline_cause/en_simple": {
+     "acc": 0.2917,
+     "n": 24
+    },
+    "hatexplain/majority": {
+     "acc": 0.4583,
+     "n": 24
+    },
+    "folio": {
+     "acc": 0.3478,
+     "n": 23
+    },
+    "tab/identifier": {
+     "acc": 0.4348,
+     "n": 23
+    },
+    "lonli": {
+     "acc": 0.5652,
+     "n": 23
+    },
+    "wice": {
+     "acc": 0.4783,
+     "n": 23
+    },
+    "scientific-exaggeration-detection": {
+     "acc": 0.3913,
+     "n": 23
+    },
+    "vitaminc": {
+     "acc": 0.3043,
+     "n": 23
+    },
+    "gap": {
+     "acc": 0.5217,
+     "n": 23
+    },
+    "naturallogic": {
+     "acc": 0.4545,
+     "n": 22
+    },
+    "sentfin": {
+     "acc": 0.6667,
+     "n": 21
+    },
+    "multilingual/americas_nli/all_languages": {
+     "acc": 0.3333,
+     "n": 21
+    },
+    "redial/preference": {
+     "acc": 0.8095,
+     "n": 21
+    },
+    "hope_edi/english": {
+     "acc": 0.5714,
+     "n": 21
+    },
+    "propsegment/nli": {
+     "acc": 0.7143,
+     "n": 21
+    },
+    "snli": {
+     "acc": 0.8095,
+     "n": 21
+    },
+    "multilingual/tweet_sentiment_multilingual": {
+     "acc": 0.5238,
+     "n": 21
+    },
+    "equate": {
+     "acc": 0.3333,
+     "n": 21
+    },
+    "shell-safety-v2": {
+     "acc": 0.1,
+     "n": 20
+    },
+    "mams/atsa": {
+     "acc": 0.45,
+     "n": 20
+    },
+    "syntactic-augmentation-nli": {
+     "acc": 0.5,
+     "n": 20
+    },
+    "temporal-nli": {
+     "acc": 0.4444,
+     "n": 18
+    },
+    "nan-nli": {
+     "acc": 0.4667,
+     "n": 15
+    }
+   },
+   "cpu_latency_ms_mean": 646.0,
+   "errors": 0
+  },
+  "laya_typed_decisions": {
+   "accuracy": 0.4866,
+   "macro_f1": 0.4855,
+   "per_source_acc": {
+    "WANLI": {
+     "acc": 0.6522,
+     "n": 69
+    },
+    "FOL-nli": {
+     "acc": 0.371,
+     "n": 62
+    },
+    "knowref60k": {
+     "acc": 0.5536,
+     "n": 56
+    },
+    "social_i_qa": {
+     "acc": 0.451,
+     "n": 51
+    },
+    "procedural-typed-decisions/policy_applicability": {
+     "acc": 0.2703,
+     "n": 37
+    },
+    "corr2cause": {
+     "acc": 0.2571,
+     "n": 35
+    },
+    "spartqa-yn": {
+     "acc": 0.4857,
+     "n": 35
+    },
+    "procedural-typed-decisions/record_eligibility": {
+     "acc": 0.4,
+     "n": 30
+    },
+    "procedural-typed-decisions/multi_view_adjudication": {
+     "acc": 0.3793,
+     "n": 29
+    },
+    "procedural-typed-decisions/event_state_reconstruction": {
+     "acc": 0.7586,
+     "n": 29
+    },
+    "procedural-typed-decisions/policy_under_uncertainty": {
+     "acc": 0.5357,
+     "n": 28
+    },
+    "procedural-typed-decisions/state_perturbation": {
+     "acc": 0.5,
+     "n": 28
+    },
+    "SpaceNLI": {
+     "acc": 0.4583,
+     "n": 24
+    },
+    "wands": {
+     "acc": 0.25,
+     "n": 24
+    },
+    "CONDAQA": {
+     "acc": 0.4167,
+     "n": 24
+    },
+    "multilingual/multilingual-sentiments/all": {
+     "acc": 0.4583,
+     "n": 24
+    },
+    "breaking_nli": {
+     "acc": 0.875,
+     "n": 24
+    },
+    "newsmtsc": {
+     "acc": 0.6667,
+     "n": 24
+    },
+    "twitter-financial-news-sentiment": {
+     "acc": 0.6667,
+     "n": 24
+    },
+    "headline_cause/en_simple": {
+     "acc": 0.0833,
+     "n": 24
+    },
+    "hatexplain/majority": {
+     "acc": 0.4167,
+     "n": 24
+    },
+    "folio": {
+     "acc": 0.4783,
+     "n": 23
+    },
+    "tab/identifier": {
+     "acc": 0.3913,
+     "n": 23
+    },
+    "lonli": {
+     "acc": 0.5652,
+     "n": 23
+    },
+    "wice": {
+     "acc": 0.6957,
+     "n": 23
+    },
+    "scientific-exaggeration-detection": {
+     "acc": 0.5217,
+     "n": 23
+    },
+    "vitaminc": {
+     "acc": 0.6087,
+     "n": 23
+    },
+    "gap": {
+     "acc": 0.5217,
+     "n": 23
+    },
+    "naturallogic": {
+     "acc": 0.5,
+     "n": 22
+    },
+    "sentfin": {
+     "acc": 0.6667,
+     "n": 21
+    },
+    "multilingual/americas_nli/all_languages": {
+     "acc": 0.4762,
+     "n": 21
+    },
+    "redial/preference": {
+     "acc": 0.8095,
+     "n": 21
+    },
+    "hope_edi/english": {
+     "acc": 0.4762,
+     "n": 21
+    },
+    "propsegment/nli": {
+     "acc": 0.619,
+     "n": 21
+    },
+    "snli": {
+     "acc": 0.8571,
+     "n": 21
+    },
+    "multilingual/tweet_sentiment_multilingual": {
+     "acc": 0.4762,
+     "n": 21
+    },
+    "equate": {
+     "acc": 0.381,
+     "n": 21
+    },
+    "shell-safety-v2": {
+     "acc": 0.25,
+     "n": 20
+    },
+    "mams/atsa": {
+     "acc": 0.45,
+     "n": 20
+    },
+    "syntactic-augmentation-nli": {
+     "acc": 0.5,
+     "n": 20
+    },
+    "temporal-nli": {
+     "acc": 0.5,
+     "n": 18
+    },
+    "nan-nli": {
+     "acc": 0.4667,
+     "n": 15
+    }
+   },
+   "cpu_latency_ms_mean": 807.0,
+   "errors": 0
+  }
+ }
+}
