@@ -183,7 +183,7 @@ def main():
     a("- **Adaptation:** LoRA (r=32, alpha=64) on the attention and MLP projections, "
       "trained over a frozen backbone, then **merged** into a single monolithic "
       "checkpoint. Inference needs no PEFT and no adapter loading.")
-    a("- **Parameters:** 616M total, of which 20.2M (3.28%) were trained.")
+    a("- **Parameters:** 596M total, of which 20.2M (3.4%) were trained.")
     a("- **Budget:** 512 tokens per decision. The option block is protected; only the "
       "state is truncated.")
     a("- **Output:** `logits` of shape `(1, 3)`. There is no text generation, so there "
