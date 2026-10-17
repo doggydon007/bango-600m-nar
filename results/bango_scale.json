@@ -1,0 +1,31 @@
+{
+ "this_checkpoint": {
+  "decisions": 58368,
+  "tokens_total": 12432384,
+  "tokens_per_decision_mean": 213.0,
+  "note": "decision head + LoRA adapters, this release"
+ },
+ "frozen_backbone_earlier_run": {
+  "epochs": 2,
+  "max_len": 512,
+  "rows_total": 308190,
+  "rows_train": 292780,
+  "tokens_one_pass": 19094878,
+  "tokens_total": 36280206,
+  "tokens_per_row_mean": 62.0,
+  "rows_per_dataset": {
+   "google/boolq": 9427,
+   "nyu-mll/glue sst2": 67349,
+   "stanfordnlp/sst2": 67349,
+   "LocalLLaMA/typed-decisions": 1200,
+   "facebook/anli r1": 16946,
+   "facebook/anli r2": 45460,
+   "facebook/anli r3": 100459
+  },
+  "note": "Qwen3-0.6B backbone, later frozen; tokenized at max_len 512, truncation only. Measured by re-tokenizing the exact source stream, since no trainer_state.json was kept."
+ },
+ "lineage_total": {
+  "examples": 351148,
+  "tokens": 48712590
+ }
+}
