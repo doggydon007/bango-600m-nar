@@ -94,7 +94,7 @@ The scripts that build this card, the benchmark tables and the figure live in th
 
 - **Backbone:** Qwen3-0.6B decoder. The language-model head is replaced by a 3-way linear classifier over the last-token hidden state, so a decision is one forward pass and the output is always exactly three numbers.
 - **Adaptation:** LoRA (r=32, alpha=64) on the attention and MLP projections, trained over a frozen backbone, then **merged** into a single monolithic checkpoint. Inference needs no PEFT and no adapter loading.
-- **Parameters:** 616M total, of which 20.2M (3.28%) were trained.
+- **Parameters:** 596M total, of which 20.2M (3.4%) were trained.
 - **Budget:** 512 tokens per decision. The option block is protected; only the state is truncated.
 - **Output:** `logits` of shape `(1, 3)`. There is no text generation, so there is no format to parse.
 
