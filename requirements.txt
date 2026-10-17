@@ -1,0 +1,7 @@
+torch
+transformers>=5.0
+datasets
+huggingface_hub
+numpy
+scikit-learn
+matplotlib
