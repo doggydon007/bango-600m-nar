@@ -1,0 +1,11 @@
+{
+ "cpu": "8 vCPU (torch float32)",
+ "single_ms_per_decision": 533.3,
+ "single_decisions_per_sec": 1.88,
+ "batch32_decisions_per_sec": 0.48,
+ "n_single": 200,
+ "n_batched": 512,
+ "p50_tokens": 124,
+ "p95_tokens": 766,
+ "note": "The batched figure pads each batch to its longest item (p95 = 766 tokens), so it is not a throughput-optimised measurement. Quote the single-stream figure."
+}
