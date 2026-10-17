@@ -145,7 +145,7 @@ def main():
     rows = [
         ("Architecture", "Qwen3-0.6B decoder, LoRA r=32 (merged)"),
         ("Head", "Linear(3) -- option A / B / C, single forward pass"),
-        ("Params", "616 M total, non-autoregressive, BF16"),
+        ("Params", "596 M total, 20.2 M trained (3.4%), BF16"),
         ("Objective", "soft-target distillation on 3-option decisions"),
         ("Test set", f"{ours['eval_n']:,} decisions, {len(ps)} scored sources"),
         ("License", "Apache-2.0 (model) - commercial-licensed rows only"),
